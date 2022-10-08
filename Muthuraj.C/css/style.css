@@ -436,6 +436,915 @@
 }
 
 .exp-h1 h1{
-    font-family: ;
+    font-family: "Kanadaka-Regular";
+    font-size: 1rem;
+    color: #1b1bb7;
+}
+
+.exp-hr{
+    width: 70%;
+    height: 2px;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    border-bottom: solid 2px #1b1bb7;
+}
+
+.exp-con{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+
+.exp-con-right{
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.exp-con-right h3{
+    font-family: "ABeeZee-Italic";
+    font-size: 0.9rem;
+    color: #1b1bb7;
+    
+}
+
+.exp-con-left{
+    width: 80%;
+    height: auto;
+    margin-left: 1.6rem;
+    box-sizing: border-box;
+}
+
+.exp-con-left h1{
+    font-family: "ABeeZee-Italic";
+    font-size: 0.9rem;
+    color: black;
+}
+
+.exp-con-left h2{
+    font-family: "ABeeZee-Italic";
+    font-size: 0.8rem;
+    color: #1b1bb7;
+    margin-top: 0.3rem;
+}
+
+.exp-con-left ul li{
+    font-family: "ABeeZee-Italic";
+    font-size: 0.8rem;
+    color: black;
+    margin-top: 0.3rem;
+    list-style: inside;
+}
+
+@media (min-width:765px){
+    .exp{
+        width: auto;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        box-sizing: border-box;
+    }
+    
+    .exp-head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .exp-h1{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .exp-h1 h1{
+        font-family: "Kanadaka-Regular";
+        font-size: 1.3rem;
+        color: #1b1bb7;
+    }
+    
+    .exp-hr{
+        width: 680px;
+        height: 2px;
+        margin-left: 0.3rem;
+        margin-top: 0.7rem;
+        border-bottom: solid 2px #1b1bb7;
+    }
+    
+    .exp-con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .exp-con-right{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .exp-con-right h3{
+        font-family: "ABeeZee-Italic";
+        font-size: 1rem;
+        color: #1b1bb7;
+        
+    }
+    
+    .exp-con-left{
+        width: 80%;
+        height: auto;
+        margin-left: 0rem;
+        box-sizing: border-box;
+    }
+    
+    .exp-con-left h1{
+        font-family: "ABeeZee-Italic";
+        font-size: 1.2rem;
+        color: black;
+    }
+    
+    .exp-con-left h2{
+        font-family: "ABeeZee-Italic";
+        font-size: 1rem;
+        color: #1b1bb7;
+        margin-top: 0.5rem;
+    }
+    
+    .exp-con-left ul li{
+        font-family: "ABeeZee-Italic";
+        font-size: 0.9rem;
+        color: black;
+        margin-top: 0.5rem;
+        list-style: inside;
+    }
+    
+}
+
+
+@media (min-width:1024px){
+    .exp{
+        width: auto;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        box-sizing: border-box;
+    }
+    
+    .exp-head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .exp-h1{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .exp-h1 h1{
+        font-family: "Kanadaka-Regular";
+        font-size: 2rem;
+        color: #1b1bb7;
+    }
+    
+    .exp-hr{
+        width: 80%;
+        height: 2px;
+        margin-left: 0.5rem;
+        margin-top: 1.5rem;
+        border-bottom: solid 2px #1b1bb7;
+    }
+    
+    .exp-con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .exp-con-right{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .exp-con-right h3{
+        font-family: "ABeeZee-Italic";
+        font-size: 1.3rem;
+        color: #1b1bb7;
+        
+    }
+    
+    .exp-con-left{
+        width: 80%;
+        height: auto;
+        margin-left: 1rem;
+        box-sizing: border-box;
+    }
+    
+    .exp-con-left h1{
+        font-family: "ABeeZee-Italic";
+        font-size: 1.5rem;
+        color: black;
+    }
+    
+    .exp-con-left h2{
+        font-family: "ABeeZee-Italic";
+        font-size: 1.4rem;
+        color: #1b1bb7;
+        margin-top: 0.5rem;
+    }
+    
+    .exp-con-left ul li{
+        font-family: "ABeeZee-Italic";
+        font-size: 1.3rem;
+        color: black;
+        margin-top: 0.5rem;
+        list-style: inside;
+    }
+    
 }
 /*Experience End*/
+
+/*Education Start*/
+.edu{
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+}
+
+.edu-head{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.edu-head-h1{
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.edu-head-h1 h1{
+    font-family: "Kanadaka-Regular";
+    font-size: 1rem;
+    color: #1b1bb7;
+}
+
+.edu-hr{
+    width: 70%;
+    height: 2px;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    border-bottom: solid 2px #1b1bb7;
+}
+
+.edu-con{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+
+.edu-con-right{
+    width: 20%;
+    height: auto;
+}
+
+.edu-con-right h1{
+    font-family: "AbeeZee-Italic";
+    font-size: 0.8rem;
+    color: #1b1bb7;
+}
+
+.edu-con-left{
+    width: 80%;
+    height: auto;
+    margin-left: 1.5rem;
+    box-sizing: border-box;
+}
+
+.edu-con-left h1{
+    font-family: "AbeeZee-Italic";
+    font-size: 0.8rem;
+    color: black;
+}
+
+.edu-con-left h2{
+    font-family: "AbeeZee-Italic";
+    font-size: 0.8rem;
+    color: #1b1bb7;
+}
+
+@media (min-width:765px){
+    .edu{
+        width: auto;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        box-sizing: border-box;
+    }
+    
+    .edu-head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .edu-head-h1{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .edu-head-h1 h1{
+        font-family: "Kanadaka-Regular";
+        font-size: 1.3rem;
+        color: #1b1bb7;
+    }
+    
+    .edu-hr{
+        width: 680px;
+        height: 2px;
+        margin-left: 0.3rem;
+        margin-top: 0.8rem;
+        border-bottom: solid 2px #1b1bb7;
+    }
+    
+    .edu-con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .edu-con-right{
+        width: 20%;
+        height: auto;
+    }
+    
+    .edu-con-right h1{
+        font-family: "AbeeZee-Italic";
+        font-size: 1rem;
+        color: #1b1bb7;
+    }
+    
+    .edu-con-left{
+        width: 80%;
+        height: auto;
+        margin-left: 0.1rem;
+        box-sizing: border-box;
+    }
+    
+    .edu-con-left h1{
+        font-family: "AbeeZee-Italic";
+        font-size: 1rem;
+        color: black;
+    }
+    
+    .edu-con-left h2{
+        font-family: "AbeeZee-Italic";
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        color: #1b1bb7;
+    }
+}
+
+@media (min-width:1024px){
+    .edu{
+        width: auto;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        box-sizing: border-box;
+    }
+    
+    .edu-head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .edu-head-h1{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .edu-head-h1 h1{
+        font-family: "Kanadaka-Regular";
+        font-size: 2rem;
+        color: #1b1bb7;
+    }
+    
+    .edu-hr{
+        width: 80%;
+        height: 2px;
+        margin-left: 0.3rem;
+        margin-top: 1.5rem;
+        border-bottom: solid 2px #1b1bb7;
+    }
+    
+    .edu-con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .edu-con-right{
+        width: 20%;
+        height: auto;
+    }
+    
+    .edu-con-right h1{
+        font-family: "AbeeZee-Italic";
+        font-size: 1.3rem;
+        color: #1b1bb7;
+    }
+    
+    .edu-con-left{
+        width: 80%;
+        height: auto;
+        margin-left: 0.1rem;
+        box-sizing: border-box;
+    }
+    
+    .edu-con-left h1{
+        font-family: "AbeeZee-Italic";
+        font-size: 1.3rem;
+        color: black;
+    }
+    
+    .edu-con-left h2{
+        font-family: "AbeeZee-Italic";
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        color: #1b1bb7;
+    }
+}
+/*Experience End*/
+
+/*Skills Start*/
+.skills{
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+}
+
+.skills-head{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.skills-head-h1{
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.skills-head-h1 h1{
+    font-family: "Kanadaka-Regular";
+    font-size: 1rem;
+    color: #1b1bb7;
+}
+
+.skills-hr{
+    width: 70%;
+    height: 2px;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    border-bottom: solid 2px #1b1bb7;
+}
+
+.skills-con{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+.skills-con-right{
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.skills-con-left{
+    width: 80%;
+    height: auto;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+
+.skills-con-left ul{
+    line-height: 20px;
+}
+
+
+.skills-con-left ul li{
+    font-family: "ABeeZee-Italic";
+    font-size: 0.9rem;
+    color: black;
+}
+
+@media (min-width:765px){
+    .skills{
+        width: auto;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        box-sizing: border-box;
+    }
+    
+    .skills-head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .skills-head-h1{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .skills-head-h1 h1{
+        font-family: "Kanadaka-Regular";
+        font-size: 1.3rem;
+        color: #1b1bb7;
+    }
+    
+    .skills-hr{
+        width: 680px;
+        height: 2px;
+        margin-left: 0.3rem;
+        margin-top: 0.8rem;
+        border-bottom: solid 2px #1b1bb7;
+    }
+
+    .skills-con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    .skills-con-right{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .skills-con-left{
+        width: 80%;
+        height: auto;
+        margin-left: 0.2rem;
+        margin-top: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .skills-con-left ul{
+        line-height: 28px;
+    }
+    
+    
+    .skills-con-left ul li{
+        font-family: "ABeeZee-Italic";
+        font-size: 1rem;
+        color: black;
+    }
+    
+}
+
+
+@media (min-width:1024px){
+    .skills{
+        width: auto;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        box-sizing: border-box;
+    }
+    
+    .skills-head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .skills-head-h1{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .skills-head-h1 h1{
+        font-family: "Kanadaka-Regular";
+        font-size: 2rem;
+        color: #1b1bb7;
+    }
+    
+    .skills-hr{
+        width: 80%;
+        height: 2px;
+        margin-left: 0.3rem;
+        margin-top: 1.5rem;
+        border-bottom: solid 2px #1b1bb7;
+    }
+
+    .skills-con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    .skills-con-right{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .skills-con-left{
+        width: 80%;
+        height: auto;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .skills-con-left ul{
+        line-height: 35px;
+    }
+    
+    
+    .skills-con-left ul li{
+        font-family: "ABeeZee-Italic";
+        font-size: 1.7rem;
+        color: black;
+    }
+    
+}
+/*Skills End*/
+
+
+/*Interests Start*/
+.inter{
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+}
+
+.inter-head{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.inter-head-h1{
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.inter-head-h1 h1{
+    font-family: "Kanadaka-Regular";
+    font-size: 1rem;
+    color: #1b1bb7;
+}
+
+.inter-hr{
+    width: 70%;
+    height: 2px;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    border-bottom: solid 2px #1b1bb7;
+}
+
+.inter-con{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+.inter-con-right{
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.inter-con-left{
+    width: 80%;
+    height: auto;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+
+.inter-con-left ul{
+    line-height: 20px;
+}
+
+
+.inter-con-left ul li{
+    font-family: "ABeeZee-Italic";
+    font-size: 0.9rem;
+    color: black;
+}
+
+.inter-con-left ul li i{
+    font-size: 0.7rem;
+    color: #1b1bb7;
+    margin-right: 0.5rem;
+}
+
+
+
+@media (min-width:765px){
+    .inter{
+        width: auto;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        box-sizing: border-box;
+    }
+    
+    .inter-head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .inter-head-h1{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .inter-head-h1 h1{
+        font-family: "Kanadaka-Regular";
+        font-size: 1.3rem;
+        color: #1b1bb7;
+    }
+    
+    .inter-hr{
+        width: 680px;
+        height: 2px;
+        margin-left: 0.3rem;
+        margin-top: 0.8rem;
+        border-bottom: solid 2px #1b1bb7;
+    }
+
+    .inter-con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    .inter-con-right{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .inter-con-left{
+        width: 80%;
+        height: auto;
+        margin-left: 0.2rem;
+        margin-top: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .inter-con-left ul{
+        line-height: 28px;
+    }
+    
+    
+    .inter-con-left ul li{
+        font-family: "ABeeZee-Italic";
+        font-size: 1rem;
+        color: black;
+    }
+
+    .inter-con-left ul li i{
+        font-size: 0.9rem;
+        color: #1b1bb7;
+        margin-right: 0.5rem;
+    }
+    
+}
+
+
+@media (min-width:1024px){
+    .inter{
+        width: auto;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        box-sizing: border-box;
+    }
+    
+    .inter-head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    
+    .inter-head-h1{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .inter-head-h1 h1{
+        font-family: "Kanadaka-Regular";
+        font-size: 2rem;
+        color: #1b1bb7;
+    }
+    
+    .inter-hr{
+        width: 80%;
+        height: 2px;
+        margin-left: 0.3rem;
+        margin-top: 1.5rem;
+        border-bottom: solid 2px #1b1bb7;
+    }
+
+    .inter-con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+    .inter-con-right{
+        width: 20%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .inter-con-left{
+        width: 80%;
+        height: auto;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .inter-con-left ul{
+        line-height: 35px;
+    }
+    
+    
+    .inter-con-left ul li{
+        font-family: "ABeeZee-Italic";
+        font-size: 1.7rem;
+        color: black;
+    }
+
+    .inter-con-left ul li i{
+        font-size: 1rem;
+        color: #1b1bb7;
+        margin-right: 0.5rem;
+    }
+}
+/*Interests End*/
